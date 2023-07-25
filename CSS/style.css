@@ -177,7 +177,7 @@ body{
 .price__element{
     background-color: #e5e5f7;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 330px;
     padding: 40px;
     --color-plan: #696871;
@@ -187,20 +187,24 @@ body{
     --color-items: #696871;
 }
 .price__element--ghee{
-    width: 400px;
-    padding: 60px 20px;
     background-color: rgb(250,200,0,60%);
     --color-plan: #696871;
     --color-price: #1d293f;
-    --bg-cta: #fff;
+    --bg-cta:rgba(202, 162, 3, 0.568);
     --color-cta:#fff;
     --color-items: #1d293f;
+}
+.price__element--cafe{
+    background-color: rgb(167, 105, 76);
+    --bg-cta: rgb(192, 136, 112);
+    --color-cta:#fff;
 }
 
 .price__name{
     color: var(--color-plan);
     margin-bottom: 15px;
     font-weight: 300;
+    font-size: 1.8rem;
 }
 .price__price{
     font-size: 2.5rem;
@@ -215,12 +219,16 @@ body{
     margin-bottom: 50px;
     color:var(--color-items);
 }
+.price__items--cafe{
+    color: #fff;
+}
 .price__cta{
     display: block;
     padding: 20px 0;
     border-radius:10px;
     text-decoration: none;
     background-color: var(--bg-cta);
+    color: var(--color-cta);
     font-weight: 600;
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
