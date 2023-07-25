@@ -187,12 +187,14 @@ body{
     --color-items: #696871;
 }
 .price__element--ghee{
-    background-color: rgb(204,204,0,60%);
+    width: 400px;
+    padding: 60px 20px;
+    background-color: rgb(250,200,0,60%);
     --color-plan: #696871;
     --color-price: #1d293f;
     --bg-cta: #fff;
-    --color-cta:#5454d4;
-    --color-items: #696871;
+    --color-cta:#fff;
+    --color-items: #1d293f;
 }
 
 .price__name{
@@ -221,6 +223,5 @@ body{
     background-color: var(--bg-cta);
     font-weight: 600;
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
-    
 }
 
