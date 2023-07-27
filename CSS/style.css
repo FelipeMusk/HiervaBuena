@@ -31,7 +31,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg,#0000008c 0%,#0000008c 100%), url(./Images/ghee.jpg);
+    background-image: linear-gradient(180deg,#0000008c 0%,#0000008c 100%), url(/Images/ghee.jpg);
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -187,6 +187,8 @@ body{
     --color-items: #696871;
 }
 .price__element--ghee{
+    width: 370px;
+    padding: 70px;
     background-color: rgb(250,200,0,60%);
     --color-plan: #696871;
     --color-price: #1d293f;
@@ -194,17 +196,11 @@ body{
     --color-cta:#fff;
     --color-items: #1d293f;
 }
-.price__element--cafe{
-    background-color: rgb(167, 105, 76);
-    --bg-cta: rgb(192, 136, 112);
-    --color-cta:#fff;
-}
-
 .price__name{
     color: var(--color-plan);
     margin-bottom: 15px;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
 }
 .price__price{
     font-size: 2.5rem;
@@ -219,9 +215,6 @@ body{
     margin-bottom: 50px;
     color:var(--color-items);
 }
-.price__items--cafe{
-    color: #fff;
-}
 .price__cta{
     display: block;
     padding: 20px 0;
@@ -232,4 +225,53 @@ body{
     font-weight: 600;
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
+
+/*testimony*/
+
+.testimony{
+    background-color: #e5e5f7;
+}
+.testimony__container{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+}
+.testimony__body{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+}
+.testimony__body--show{
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+.testimony__course{
+    background-color:royalblue;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+.testimony__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+.testimony__texts{
+    max-width: 700px;
+}
+.testimony__arrow{
+    width: 90%;
+    cursor: pointer;
+}
+
 
