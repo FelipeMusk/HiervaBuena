@@ -14,7 +14,7 @@
             if(answer.clientHeight === 0){
                 height = answer.scrollHeight;
             }
-
+            
             answer.style.height = `${height}px`;
         });
     });
