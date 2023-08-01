@@ -326,6 +326,23 @@ body{
 .questions__img{
     display: block;
 }
+.questions__offer{
+    align-items: center;
+}
+.questions__copy{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px
+}
+.cta{
+    color: #fff;
+}
+
+/*Footer*/
+
+.footer{
+    background-color: #1d293f;
+}
 
 
 
