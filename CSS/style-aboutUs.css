@@ -1,8 +1,27 @@
 #hero_aboutUs{
     width: 100%;
     min-height: 100px;
-    max-height: 200px;
+    max-height: 150px;
 }
 #nav__links-id{
     color: #fff;
+}
+/*aboutUs section*/
+.aboutUs{
+    background-color:rgb(218, 212, 212);
+}
+.aboutUs__icon{
+    width: 30%;
+    margin: 2rem;
+}
+.aboutUs__icons{
+    gap: 2em;
+}
+.aboutUs_content{
+    margin: 2rem;
+    float: right;
+}
+.aboutUs__title{
+    display: table-cell;
+    vertical-align: middle;
 }
