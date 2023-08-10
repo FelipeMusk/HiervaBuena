@@ -1,7 +1,7 @@
 #hero_aboutUs{
     width: 100%;
     min-height: 100px;
-    max-height: 150px;
+    max-height: 100px;
 }
 #nav__links-id{
     color: #fff;
@@ -10,18 +10,35 @@
 .aboutUs{
     background-color:rgb(218, 212, 212);
 }
-.aboutUs__icon{
-    width: 30%;
-    margin: 2rem;
+.aboutUs_background{
+    background-color: #fff;
 }
 .aboutUs__icons{
-    gap: 2em;
+    display: flex;
+    padding: 4rem 2rem;
+    justify-content: center;
 }
-.aboutUs_content{
-    margin: 2rem;
-    float: right;
+.aboutUs__img{
+    width: 100%;
+    max-width: 650px;
+    order: 1;
+}
+.aboutUs__img--1{
+    order: 0;
+}
+.aboutUs_icons_content{
+    text-align: center;
+    padding: 3rem;
+    max-width: 600px;
 }
 .aboutUs__title{
-    display: table-cell;
-    vertical-align: middle;
+    padding-bottom: 3rem;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #4d4d4d;
+
+}
+.aboutUs__paragraph{
+    font-size: 20px;
+    line-height: 2rem;
 }
