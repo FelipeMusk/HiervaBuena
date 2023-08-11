@@ -6,3 +6,39 @@
 #nav__links-id{
     color: #fff;
 }
+/*aboutUs section*/
+.aboutUs{
+    background-color:rgb(218, 212, 212);
+}
+.aboutUs_background{
+    background-color: #fff;
+}
+.aboutUs__icons{
+    display: flex;
+    padding: 4rem 2rem;
+    justify-content: center;
+}
+.aboutUs__img{
+    width: 100%;
+    max-width: 650px;
+    order: 1;
+}
+.aboutUs__img--1{
+    order: 0;
+}
+.aboutUs_icons_content{
+    text-align: center;
+    padding: 3rem;
+    max-width: 600px;
+}
+.aboutUs__title{
+    padding-bottom: 3rem;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #4d4d4d;
+
+}
+.aboutUs__paragraph{
+    font-size: 20px;
+    line-height: 2rem;
+}
