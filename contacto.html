@@ -7,6 +7,7 @@
     <link rel="short icon" href="./Images/logo_hierva.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/contacto.css">
     <link rel="stylesheet" href="./CSS/aboutUs.css">
 </head>
 <body>
@@ -26,7 +27,7 @@
                     <a href="aboutUs.html" class="nav__links">Acerca de nosotros</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Contacto</a>
+                    <a href="contacto.html" class="nav__links">Contacto</a>
                 </li>
                 <img src="./Images/close.svg" class="nav__close">
             </ul>
@@ -36,34 +37,37 @@
         </nav>
     </header>
     <main>
-        <section class="aboutUs">
-            <div class="aboutUs__icons aboutUs__icons--1">
-                <img src="./Images/aboutUs__icons--2.jpeg" class="aboutUs__img">
-                <div class="aboutUs_icons_content">
-                    <h1 class="aboutUs__title">QUIÉNES SOMOS</h1>
-                    <p class="aboutUs__paragraph">Lorem ipsum dolor sit amer consecteur adipisicing elit. Redupiandae
-                            possimus quis expedita quam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, deleniti enim molestiae exercitationem deserunt dolores natus quibusdam aut debitis, qui cumque officiis dolore fuga corporis labore distinctio recusandae nam pariatur!</p>
+        <section class="contacto">
+            <section class="mapa">
+                <h3 class="titulo-principal">Nuestra Ubicación</h3>
+                <p>Nuestro establecimiento está ubicado en el corazón de la ciudad</p>
+                <div class="mapa-contenido">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.739707467508!2d-76.06654702386162!3d1.8495527981335407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e250bc7c701c9b5%3A0x39dcf9b594a8d6c0!2sPinturas%20Duratex!5e0!3m2!1ses-419!2sco!4v1691856266903!5m2!1ses-419!2sco" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
-            </div>
-            
-            <div class="aboutUs__icons aboutUs_background">
-                <img src="./Images/aboutUs__icons--2.jpeg" class="aboutUs__img aboutUs__img--1">
-                <div class="aboutUs_icons_content">
-                    <h1 class="aboutUs__title">POR QUÉ NUESTROS PRODUCTOS</h1>
-                    <p class="aboutUs__paragraph">Lorem ipsum dolor sit amer consecteur adipisicing elit. Redupiandae
-                            possimus quis expedita quam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, deleniti enim molestiae exercitationem deserunt dolores natus quibusdam aut debitis, qui cumque officiis dolore fuga corporis labore distinctio recusandae nam pariatur!</p>
+            </section>    
+            <section class="form__contacto">
+                <h2 class="form__title">¿Quieres que te contactemos? Ingresa tus datos aqui:</h2>
+                <p class="form__paragraph">Mantente informado de nuestros ultimos productos</p>
+                <div class="form__container">
+                    <div class="form__group">
+                        <input type="text" id="name"class="form__input" placeholder=" ">
+                        <label for="" class="form__label">Nombre:</label>
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__group">
+                        <input type="text" id="email" class="form__input" placeholder=" ">
+                        <label for="" class="form__label">Correo electronico:</label>
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__group">
+                        <input type="text" id="#cel" class="form__input" placeholder=" ">
+                        <label for="" class="form__label">Numero de telefono:</label>
+                        <span class="form__line"></span>
+                    </div>
+                    <input type="submit" class="form__submit" value="Enviar">
                 </div>
-            </div>
-            <div class="aboutUs__icons aboutUs__icons--1">
-                <img src="./Images/aboutUs__icons--2.jpeg" class="aboutUs__img">
-                <div class="aboutUs_icons_content">
-                    <h1 class="aboutUs__title">NUESTRA MISION</h1>
-                    <p class="aboutUs__paragraph">Lorem ipsum dolor sit amer consecteur adipisicing elit. Redupiandae
-                            possimus quis expedita quam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, deleniti enim molestiae exercitationem deserunt dolores natus quibusdam aut debitis, qui cumque officiis dolore fuga corporis labore distinctio recusandae nam pariatur!</p>
-                </div>
-            </div>
+            </section>
         </section>
-            
     </main>
     <footer class="footer">
         <section class="footer__container container">
@@ -71,13 +75,13 @@
                 <h2 class="footer__title">Cuida tu cuerpo.</h2>
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Inicio</a>
+                        <a href="index.html" class="nav__links">Inicio</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Acerca de nosotros</a>
+                        <a href="aboutUs.html" class="nav__links">Acerca de nosotros</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Contacto</a>
+                        <a href="contacto.html" class="nav__links">Contacto</a>
                     </li>
                 </ul>
             </nav>
