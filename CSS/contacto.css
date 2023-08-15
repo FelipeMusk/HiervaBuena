@@ -20,6 +20,10 @@
 #socialMedia__img{
     color: #000000;
 }
+.socialMedia__facebook{
+    display: grid;
+    padding-top: 2rem;
+}
 .mapa{
     padding: 3em 0;
 }
@@ -31,12 +35,16 @@
 
 .mapa-contenido{
     width: 940px;
-    margin: 0 auto;
+    margin: 0 auto;;
+}
+#titulo_socialMediaID{
+    margin: 0;
 }
 .titulo-principal, .titulo__socialMedia{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    padding: 2rem;
 }
 .form__contacto{
     width: 940px;
@@ -117,7 +125,7 @@
 
 }
 table{
-    padding-top: 2rem;
+    padding-top: 3rem;
     margin:auto;
     align-items: center;
     width: 40%; 
