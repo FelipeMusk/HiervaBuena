@@ -16,9 +16,11 @@
 }
 .socialMedia__icons{
     color: #000000;
+
 }
 #socialMedia__img{
     color: #000000;
+    width: 50px;
 }
 .socialMedia__facebook{
     display: grid;
